@@ -1,0 +1,14 @@
+{
+  "repo": "simpatico-project",
+  "feeds": [
+    {
+      "source": "https://clify.co.kr",
+      "feed_url": "https://clify.co.kr/rss/",
+      "title": "",
+      "saved": 1,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 1,
+  "fetched": "2026-07-25T15:00:33Z"
+}

@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: https://clify.co.kr
+docs: https://clify.co.kr
+standards:
+- id: iso-27001
+  conforms: true
+  evidence: >-
+    The Clify (클라이피) product site states the company obtained ISO 27001
+    ("ISO 27001을 취득하여 ... 정보보호 리스크를 사전에 예방") in its data-protection /
+    security section, alongside on-device processing and personal
+    de-identification claims.
+  source: https://clify.co.kr
+notes: >-
+  Simpatico Project (유쾌한프로젝트 / Yukwaehan Project) publishes no public API,
+  OpenAPI, or developer surface, so no cross-cutting API standards (oauth2,
+  oidc, rfc9457, json:api, pagination, idempotency) could be derived from a
+  spec. The only published conformance claim is the ISO 27001 information-
+  security certification asserted on the marketing site.

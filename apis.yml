@@ -1,8 +1,21 @@
 aid: simpatico-project
 name: Simpatico Project
-description: Simpatico Project is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Simpatico Project (유쾌한프로젝트, Yukwaehan Project Co., Ltd.) is a Korean B2B
+  mental-wellness startup, backed by 500 Global, whose product Clify (클라이피,
+  "Climb & Clarify") is an AI-based integrated mental-care and Employee
+  Assistance Program (EAP) solution for individuals and companies. Clify uses a
+  patented multimodal algorithm to fuse Face & Voice biosignals — blood-flow
+  changes, micro-expressions and voice characteristics — into a roughly
+  one-minute mental-state diagnosis (stress, anxiety, depression, burnout) that
+  it claims exceeds 90% accuracy, and rolls the results up into an organization
+  insight dashboard for HR (company-wide mental trends, high/low-risk teams,
+  usage). Personal mental data is processed on-device and de-identified so it is
+  never shared with the employer, and the company states it holds ISO 27001.
+  Product surfaces include FAV (the Face & Voice AI diagnosis engine), an EAP
+  counseling center, and the Clify organization-insight analytics. The public
+  presence (clify.co.kr, an imweb-built marketing and account site) exposes no
+  developer API, OpenAPI, SDK, or webhook surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/simpatico-project/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +23,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://cdn.imweb.me/upload/S202504245c4b216b6d4e9/85766776b19c7.png
 tags:
 - Company
+- Mental Health
+- Wellness
+- Employee Assistance Program
+- EAP
+- Human Resources
+- HR Tech
+- Artificial Intelligence
+- Digital Health
+- South Korea
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +58,26 @@ maintainers:
 common:
 - type: Website
   url: https://clify.co.kr
+- type: Blog
+  url: https://blog.naver.com/clify_official
+- type: Support
+  url: mailto:support@clify.co.kr
+- type: PrivacyPolicy
+  url: https://clify.co.kr/?mode=privacy
+- type: TermsOfService
+  url: https://clify.co.kr/?mode=policy
+- type: SignUp
+  url: https://clify.co.kr/site_join
+- type: Login
+  url: https://clify.co.kr/login
+- type: Compliance
+  url: https://clify.co.kr
+- type: Conformance
+  url: conformance/simpatico-project-conformance.yml
+- type: DomainSecurity
+  url: security/simpatico-project-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
